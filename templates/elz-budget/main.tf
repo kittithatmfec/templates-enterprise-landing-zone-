@@ -19,7 +19,7 @@ module "budget" {
   budget_target       = var.budget_target
 
   budget_alert_rule_display_name = local.budget.budget_alert_rule_display_name
-  ## budget_alert_rule_threshold    = var.budget_alert_rule_threshold
+  budget_alert_rule_threshold    = var.budget_alert_rule_threshold
   budget_alert_rule_message      = var.budget_alert_rule_message
   budget_alert_rule_recipients   = var.budget_alert_rule_recipients
 
